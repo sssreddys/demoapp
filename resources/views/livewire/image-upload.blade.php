@@ -1,4 +1,5 @@
 <div class="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
+    <x-loading-indicator/>
     <div class="rounded-full overflow-hidden bg-gray-200 w-32 h-32 mx-auto">
         @if ($image)
             <img src="{{ $image->temporaryUrl() }}" alt="Uploaded Image" class="w-full h-full object-cover">
